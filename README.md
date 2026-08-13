@@ -10,7 +10,7 @@
 ## 🚀 Why this client?
 
 - 🏛️ **Official published rates** — Bangladesh Bank's own table, with the publisher's own `rate_date` on every response
-- 📅 **History back to 2015** — point-in-time tables and daily series for any past date
+- 📅 **History back to 2010** — point-in-time tables and daily series for any past date
 - 🔀 **Published vs derived, always flagged** — computed inverse/cross pairs carry `derived: true`, never mixed with official prints
 - ⚡ **Zero dependencies** — pure ESM + CJS over global `fetch`; Node 18+, Bun, Deno, and edge runtimes
 - 🔷 **Type-safe** — full TypeScript definitions shipped with the package
@@ -111,7 +111,7 @@ console.log(table.rate_date, table.rates.length);
 
 ### Table for a date
 
-Paid plans. The official table for any date since 2015 — weekends and holidays return the most recent published date, flagged via `published_on_requested_date`, which is exactly the in-force rate a filing needs.
+Paid plans. The official table for any date since 2010 — weekends and holidays return the most recent published date, flagged via `published_on_requested_date`, which is exactly the in-force rate a filing needs.
 
 ```js
 import { getRatesForDate } from 'bangladesh-bank-exchange-rate';
@@ -236,7 +236,7 @@ getRate('USD', 'BDT', { apiKey: 'art_live_...' }).then((pair) => console.log(pai
 | `getRate(source, target, { apiKey })` | Free | Latest rate for one pair, resolved from the published table |
 | `getLatestRates({ apiKey })` | Free | The central bank's full latest published table |
 | `getRatesForDate(date, { apiKey, source?, target? })` | Paid | The official table (or one pair) for a YYYY-MM-DD date |
-| `getHistory({ symbol \| source+target, from?, to? }, { apiKey })` | Paid | Daily series since 2015 |
+| `getHistory({ symbol \| source+target, from?, to? }, { apiKey })` | Paid | Daily series since 2010 |
 
 ## 🔗 Links
 
