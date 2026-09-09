@@ -70,10 +70,10 @@ const pair = await getRate('USD', 'BDT', { apiKey: 'art_live_...' });
 {
   bank: 'bb',
   name: 'Bangladesh Bank',
-  rate_date: '2026-08-13',   // Bangladesh Bank's own publication date
+  rate_date: '2026-09-09',   // Bangladesh Bank's own publication date
   source: 'USD',
   target: 'BDT',
-  rate: 123.2032,
+  rate: 122.87,
   rate_type: 'reference',
   derived: false,
   method: 'published',
@@ -98,11 +98,11 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'bb',
   name: 'Bangladesh Bank',
-  rate_date: '2026-08-13',
+  rate_date: '2026-09-09',
   rates: [
-    { "base": "USD", "quote": "BDT", "type": "reference", "value": 123.2032 },
-    { "base": "USD", "quote": "BDT", "type": "sell", "value": 123.41 },
-    { "base": "USD", "quote": "BDT", "type": "buy", "value": 123.05 },
+    { "base": "USD", "quote": "BDT", "type": "reference", "value": 122.87 },
+    { "base": "USD", "quote": "BDT", "type": "sell", "value": 122.92 },
+    { "base": "USD", "quote": "BDT", "type": "buy", "value": 122.84 },
     // … the rest of the published table (11 currencies vs BDT)
   ],
   disclaimer: '…'
@@ -142,7 +142,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'bangladesh-bank-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'BDT', from: '2026-01-01', to: '2026-08-13' },
+  { source: 'USD', target: 'BDT', from: '2026-01-01', to: '2026-09-09' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -155,11 +155,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'BDT',
   from: '2026-01-01',
-  to: '2026-08-13',
+  to: '2026-09-09',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-08-13', rate: 123.2032, rate_type: 'reference', derived: false, method: 'published' },
+    { date: '2026-09-09', rate: 122.87, rate_type: 'reference', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
@@ -237,6 +237,14 @@ getRate('USD', 'BDT', { apiKey: 'art_live_...' }).then((pair) => console.log(pai
 | `getLatestRates({ apiKey })` | Free | The central bank's full latest published table |
 | `getRatesForDate(date, { apiKey, source?, target? })` | Paid | The official table (or one pair) for a YYYY-MM-DD date |
 | `getHistory({ symbol \| source+target, from?, to? }, { apiKey })` | Paid | Daily series since 2010 |
+
+## 📥 Bulk data (no key)
+
+Need the whole archive rather than an API call? The same published tables are mirrored daily as open data:
+
+- Hugging Face: [AllRates/central-bank-exchange-rates](https://huggingface.co/datasets/AllRates/central-bank-exchange-rates) — one CSV per institution (`rates/bb.csv`)
+- Kaggle: [allratestoday/central-bank-exchange-rates](https://www.kaggle.com/datasets/allratestoday/central-bank-exchange-rates)
+- CDN JSON: `https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/bb/latest.json`
 
 ## 🔗 Links
 
