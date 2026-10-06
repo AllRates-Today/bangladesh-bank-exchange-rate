@@ -85,10 +85,10 @@ const pair = await getRate('USD', 'BDT', { apiKey: 'art_live_...' });
 {
   bank: 'bb',
   name: 'Bangladesh Bank',
-  rate_date: '2026-09-24',   // Bangladesh Bank's own publication date
+  rate_date: '2026-10-06',   // Bangladesh Bank's own publication date
   source: 'USD',
   target: 'BDT',
-  rate: 123.22,
+  rate: 123.2,
   rate_type: 'reference',
   derived: false,
   method: 'published',
@@ -113,11 +113,11 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'bb',
   name: 'Bangladesh Bank',
-  rate_date: '2026-09-24',
+  rate_date: '2026-10-06',
   rates: [
-    { "base": "USD", "quote": "BDT", "type": "reference", "value": 123.22 },
-    { "base": "USD", "quote": "BDT", "type": "sell", "value": 123.25 },
-    { "base": "USD", "quote": "BDT", "type": "buy", "value": 123.15 },
+    { "base": "USD", "quote": "BDT", "type": "reference", "value": 123.2 },
+    { "base": "USD", "quote": "BDT", "type": "sell", "value": 123.3 },
+    { "base": "USD", "quote": "BDT", "type": "buy", "value": 123.1 },
     // … the rest of the published table (11 currencies vs BDT)
   ],
   disclaimer: '…'
@@ -157,7 +157,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'bangladesh-bank-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'BDT', from: '2026-01-01', to: '2026-09-24' },
+  { source: 'USD', target: 'BDT', from: '2026-01-01', to: '2026-10-06' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -170,11 +170,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'BDT',
   from: '2026-01-01',
-  to: '2026-09-24',
+  to: '2026-10-06',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-09-24', rate: 123.22, rate_type: 'reference', derived: false, method: 'published' },
+    { date: '2026-10-06', rate: 123.2, rate_type: 'reference', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
