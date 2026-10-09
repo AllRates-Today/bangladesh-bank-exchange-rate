@@ -4,6 +4,8 @@
 [![license](https://img.shields.io/npm/l/bangladesh-bank-exchange-rate.svg)](https://github.com/AllRates-Today/bangladesh-bank-exchange-rate/blob/main/LICENSE)
 [![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](https://www.npmjs.com/package/bangladesh-bank-exchange-rate)
 [![TypeScript](https://img.shields.io/badge/TypeScript-types%20included-3178C6.svg)](https://www.typescriptlang.org/)
+[![USD/BDT today](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fbb%3Fsource%3DUSD%26target%3DBDT&query=%24.rate&label=USD%2FBDT%20published%20by%20Bangladesh%20Bank&color=0A7E8C&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/bb/)
+[![rate date](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fbb%3Fsource%3DUSD%26target%3DBDT&query=%24.rate_date&label=rate%20date&color=555&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/bb/)
 
 **Official Bangladesh Bank (Bangladesh) daily exchange rates for Node.js and TypeScript. The published central bank rates behind tax filings, customs valuations, audits, and compliant invoicing — not market estimates, but the numbers Bangladesh Bank itself prints, every business day.**
 
@@ -32,6 +34,42 @@ console.log(r.rate_date, r.rates.length); // the central bank's latest published
 ```
 
 The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+
+## 📈 Latest published table
+
+Today's full Bangladesh Bank table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
+
+<!-- daily-table:start -->
+Published **2026-10-08** by Bangladesh Bank — 23 rates. Updated 2026-10-08.
+
+| Base | Quote | Type | Rate |
+| --- | --- | --- | ---: |
+| AUD | BDT | buy | 85.608 |
+| AUD | BDT | sell | 85.7863 |
+| BDT | LKR | buy | 2.6874 |
+| BDT | LKR | sell | 2.6915 |
+| CAD | BDT | buy | 86.2674 |
+| CAD | BDT | sell | 86.3968 |
+| CNH | BDT | buy | 18.3511 |
+| CNH | BDT | sell | 18.3737 |
+| EUR | BDT | buy | 137.6985 |
+| EUR | BDT | sell | 137.9157 |
+| GBP | BDT | buy | 162.483 |
+| GBP | BDT | sell | 162.7797 |
+| INR | BDT | buy | 1.2705 |
+| INR | BDT | sell | 1.2727 |
+| JPY | BDT | buy | 0.7779 |
+| JPY | BDT | sell | 0.7791 |
+| SEK | BDT | buy | 12.283 |
+| SEK | BDT | sell | 12.3079 |
+| SGD | BDT | buy | 96.0712 |
+| SGD | BDT | sell | 96.241 |
+| USD | BDT | buy | 123 |
+| USD | BDT | reference | 123.1 |
+| USD | BDT | sell | 123.15 |
+
+Source: [Official rates published by BB, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bb/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
+<!-- daily-table:end -->
 
 ## 🔑 Get your API key
 
