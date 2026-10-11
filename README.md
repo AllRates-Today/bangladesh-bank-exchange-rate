@@ -40,33 +40,33 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 Today's full Bangladesh Bank table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-08** by Bangladesh Bank — 23 rates. Updated 2026-10-08.
+Published **2026-10-11** by Bangladesh Bank — 23 rates. Updated 2026-10-11.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | BDT | buy | 85.608 |
-| AUD | BDT | sell | 85.7863 |
-| BDT | LKR | buy | 2.6874 |
-| BDT | LKR | sell | 2.6915 |
-| CAD | BDT | buy | 86.2674 |
-| CAD | BDT | sell | 86.3968 |
-| CNH | BDT | buy | 18.3511 |
-| CNH | BDT | sell | 18.3737 |
-| EUR | BDT | buy | 137.6985 |
-| EUR | BDT | sell | 137.9157 |
-| GBP | BDT | buy | 162.483 |
-| GBP | BDT | sell | 162.7797 |
-| INR | BDT | buy | 1.2705 |
-| INR | BDT | sell | 1.2727 |
-| JPY | BDT | buy | 0.7779 |
-| JPY | BDT | sell | 0.7791 |
-| SEK | BDT | buy | 12.283 |
-| SEK | BDT | sell | 12.3079 |
-| SGD | BDT | buy | 96.0712 |
-| SGD | BDT | sell | 96.241 |
-| USD | BDT | buy | 123 |
-| USD | BDT | reference | 123.1 |
-| USD | BDT | sell | 123.15 |
+| AUD | BDT | buy | 85.9484 |
+| AUD | BDT | sell | 86.1061 |
+| BDT | LKR | buy | 2.6838 |
+| BDT | LKR | sell | 2.6872 |
+| CAD | BDT | buy | 86.3254 |
+| CAD | BDT | sell | 86.4459 |
+| CNH | BDT | buy | 18.3915 |
+| CNH | BDT | sell | 18.4111 |
+| EUR | BDT | buy | 137.8843 |
+| EUR | BDT | sell | 138.031 |
+| GBP | BDT | buy | 162.8736 |
+| GBP | BDT | sell | 163.131 |
+| INR | BDT | buy | 1.2718 |
+| INR | BDT | sell | 1.2735 |
+| JPY | BDT | buy | 0.7773 |
+| JPY | BDT | sell | 0.7783 |
+| SEK | BDT | buy | 12.3073 |
+| SEK | BDT | sell | 12.3292 |
+| SGD | BDT | buy | 96.0893 |
+| SGD | BDT | sell | 96.2356 |
+| USD | BDT | buy | 123.1 |
+| USD | BDT | reference | 123.16 |
+| USD | BDT | sell | 123.22 |
 
 Source: [Official rates published by BB, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bb/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
