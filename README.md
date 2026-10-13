@@ -42,33 +42,33 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-11** by Bangladesh Bank — 23 rates. Updated 2026-10-12.
+Published **2026-10-12** by Bangladesh Bank — 23 rates. Updated 2026-10-13.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | BDT | buy | 85.9484 |
-| AUD | BDT | sell | 86.1061 |
-| BDT | LKR | buy | 2.6838 |
-| BDT | LKR | sell | 2.6872 |
-| CAD | BDT | buy | 86.3254 |
-| CAD | BDT | sell | 86.4459 |
-| CNH | BDT | buy | 18.3915 |
-| CNH | BDT | sell | 18.4111 |
-| EUR | BDT | buy | 137.8843 |
-| EUR | BDT | sell | 138.031 |
-| GBP | BDT | buy | 162.8736 |
-| GBP | BDT | sell | 163.131 |
-| INR | BDT | buy | 1.2718 |
-| INR | BDT | sell | 1.2735 |
-| JPY | BDT | buy | 0.7773 |
-| JPY | BDT | sell | 0.7783 |
-| SEK | BDT | buy | 12.3073 |
-| SEK | BDT | sell | 12.3292 |
-| SGD | BDT | buy | 96.0893 |
-| SGD | BDT | sell | 96.2356 |
-| USD | BDT | buy | 123.1 |
-| USD | BDT | reference | 123.16 |
-| USD | BDT | sell | 123.22 |
+| AUD | BDT | buy | 86.0532 |
+| AUD | BDT | sell | 86.162 |
+| BDT | LKR | buy | 2.6821 |
+| BDT | LKR | sell | 2.684 |
+| CAD | BDT | buy | 86.4306 |
+| CAD | BDT | sell | 86.502 |
+| CNH | BDT | buy | 18.4139 |
+| CNH | BDT | sell | 18.4231 |
+| EUR | BDT | buy | 138.0523 |
+| EUR | BDT | sell | 138.1207 |
+| GBP | BDT | buy | 163.0721 |
+| GBP | BDT | sell | 163.2369 |
+| INR | BDT | buy | 1.2734 |
+| INR | BDT | sell | 1.2743 |
+| JPY | BDT | buy | 0.7783 |
+| JPY | BDT | sell | 0.7789 |
+| SEK | BDT | buy | 12.3223 |
+| SEK | BDT | sell | 12.3372 |
+| SGD | BDT | buy | 96.2064 |
+| SGD | BDT | sell | 96.298 |
+| USD | BDT | buy | 123.25 |
+| USD | BDT | reference | 123.28 |
+| USD | BDT | sell | 123.3 |
 
 Source: [Official rates published by BB, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bb/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
