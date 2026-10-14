@@ -1,20 +1,21 @@
 {
   "name": "bangladesh-bank-exchange-rate",
-  "version": "1.3.9",
+  "version": "1.3.10",
   "description": "Official Bangladesh Bank (Bangladesh) daily exchange rates — 11 currencies vs BDT, history since 2010. Zero-dependency Node.js/TypeScript client.",
   "keywords": [
     "bb",
+    "bangladesh-bank",
     "bangladesh",
     "bank",
     "exchange-rate",
     "exchange-rates",
+    "bdt-exchange-rate",
     "currency",
     "forex",
     "fx",
     "bdt",
     "central-bank",
     "official-rates",
-    "bangladesh",
     "api",
     "typescript"
   ],

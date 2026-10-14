@@ -42,7 +42,7 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-13** by Bangladesh Bank — 23 rates. Updated 2026-10-13.
+Published **2026-10-13** by Bangladesh Bank — 23 rates. Updated 2026-10-14.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
@@ -125,10 +125,10 @@ const pair = await getRate('USD', 'BDT', { apiKey: 'art_live_...' });
 {
   bank: 'bb',
   name: 'Bangladesh Bank',
-  rate_date: '2026-10-11',   // Bangladesh Bank's own publication date
+  rate_date: '2026-10-13',   // Bangladesh Bank's own publication date
   source: 'USD',
   target: 'BDT',
-  rate: 123.16,
+  rate: 123.36,
   rate_type: 'reference',
   derived: false,
   method: 'published',
@@ -153,11 +153,11 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'bb',
   name: 'Bangladesh Bank',
-  rate_date: '2026-10-11',
+  rate_date: '2026-10-13',
   rates: [
-    { "base": "USD", "quote": "BDT", "type": "reference", "value": 123.16 },
-    { "base": "USD", "quote": "BDT", "type": "sell", "value": 123.22 },
-    { "base": "USD", "quote": "BDT", "type": "buy", "value": 123.1 },
+    { "base": "USD", "quote": "BDT", "type": "reference", "value": 123.36 },
+    { "base": "USD", "quote": "BDT", "type": "sell", "value": 123.4 },
+    { "base": "USD", "quote": "BDT", "type": "buy", "value": 123.3 },
     // … the rest of the published table (11 currencies vs BDT)
   ],
   disclaimer: '…'
@@ -197,7 +197,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'bangladesh-bank-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'BDT', from: '2026-01-01', to: '2026-10-11' },
+  { source: 'USD', target: 'BDT', from: '2026-01-01', to: '2026-10-13' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -210,11 +210,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'BDT',
   from: '2026-01-01',
-  to: '2026-10-11',
+  to: '2026-10-13',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-10-11', rate: 123.16, rate_type: 'reference', derived: false, method: 'published' },
+    { date: '2026-10-13', rate: 123.36, rate_type: 'reference', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
