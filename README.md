@@ -42,31 +42,31 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-14** by Bangladesh Bank — 23 rates. Updated 2026-10-14.
+Published **2026-10-15** by Bangladesh Bank — 23 rates. Updated 2026-10-15.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | BDT | buy | 86.0983 |
-| AUD | BDT | sell | 86.2771 |
+| AUD | BDT | buy | 85.9905 |
+| AUD | BDT | sell | 86.1289 |
 | BDT | LKR | buy | 2.6802 |
-| BDT | LKR | sell | 2.6842 |
-| CAD | BDT | buy | 86.7501 |
-| CAD | BDT | sell | 86.8862 |
-| CNH | BDT | buy | 18.4281 |
-| CNH | BDT | sell | 18.456 |
-| EUR | BDT | buy | 138.1273 |
-| EUR | BDT | sell | 138.32 |
-| GBP | BDT | buy | 163.4634 |
-| GBP | BDT | sell | 163.724 |
-| INR | BDT | buy | 1.2945 |
-| INR | BDT | sell | 1.2962 |
-| JPY | BDT | buy | 0.779 |
-| JPY | BDT | sell | 0.7802 |
-| SEK | BDT | buy | 12.3684 |
-| SEK | BDT | sell | 12.4057 |
-| SGD | BDT | buy | 96.3371 |
-| SGD | BDT | sell | 96.5296 |
-| USD | BDT | buy | 123.35 |
+| BDT | LKR | sell | 2.6834 |
+| CAD | BDT | buy | 86.6564 |
+| CAD | BDT | sell | 86.7519 |
+| CNH | BDT | buy | 18.4271 |
+| CNH | BDT | sell | 18.4441 |
+| EUR | BDT | buy | 137.6539 |
+| EUR | BDT | sell | 137.8136 |
+| GBP | BDT | buy | 162.7637 |
+| GBP | BDT | sell | 162.9706 |
+| INR | BDT | buy | 1.2967 |
+| INR | BDT | sell | 1.298 |
+| JPY | BDT | buy | 0.7793 |
+| JPY | BDT | sell | 0.7801 |
+| SEK | BDT | buy | 12.3021 |
+| SEK | BDT | sell | 12.3273 |
+| SGD | BDT | buy | 95.9785 |
+| SGD | BDT | sell | 96.1015 |
+| USD | BDT | buy | 123.39 |
 | USD | BDT | reference | 123.45 |
 | USD | BDT | sell | 123.5 |
 
