@@ -20,6 +20,10 @@
 
 > **Official rate, not mid-market:** every value here is a number Bangladesh Bank itself published, fixed once printed and carrying the central bank's own `rate_date` — what filings and audits require. Need the live mid-market rate for pricing or display instead? Use the [mid-market API](https://allratestoday.com/docs/) or [`@allratestoday/sdk`](https://www.npmjs.com/package/@allratestoday/sdk). The two can diverge by several percent.
 
+## 🔑 Get your API key
+
+Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — no credit card required. Latest rates are on every plan, including free.
+
 ## ⚡ Try it without a key
 
 The latest Bangladesh Bank table is also served keyless, CORS-open and edge-cached, for evaluation, embeds and AI agents:
@@ -43,42 +47,38 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-18 by Bangladesh Bank — 23 rates. Updated 2026-10-19.</summary>
+<summary>Table as text: published 2026-10-19 by Bangladesh Bank — 23 rates. Updated 2026-10-19.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | BDT | buy | 85.7931 |
-| AUD | BDT | sell | 85.8881 |
-| BDT | LKR | buy | 2.6804 |
-| BDT | LKR | sell | 2.6819 |
-| CAD | BDT | buy | 87.3639 |
-| CAD | BDT | sell | 87.416 |
-| CNH | BDT | buy | 18.4761 |
-| CNH | BDT | sell | 18.4862 |
-| EUR | BDT | buy | 138.8578 |
-| EUR | BDT | sell | 138.9039 |
-| GBP | BDT | buy | 164.6674 |
-| GBP | BDT | sell | 164.7321 |
-| INR | BDT | buy | 1.3009 |
-| INR | BDT | sell | 1.3014 |
-| JPY | BDT | buy | 0.7818 |
-| JPY | BDT | sell | 0.7822 |
-| SEK | BDT | buy | 12.4462 |
-| SEK | BDT | sell | 12.4865 |
-| SGD | BDT | buy | 96.5461 |
-| SGD | BDT | sell | 96.5771 |
-| USD | BDT | buy | 123.55 |
-| USD | BDT | reference | 123.55 |
-| USD | BDT | sell | 123.58 |
+| AUD | BDT | buy | 85.8278 |
+| AUD | BDT | sell | 85.9854 |
+| BDT | LKR | buy | 2.6774 |
+| BDT | LKR | sell | 2.6808 |
+| CAD | BDT | buy | 87.3992 |
+| CAD | BDT | sell | 87.515 |
+| CNH | BDT | buy | 18.4836 |
+| CNH | BDT | sell | 18.5071 |
+| EUR | BDT | buy | 138.914 |
+| EUR | BDT | sell | 139.0613 |
+| GBP | BDT | buy | 164.7341 |
+| GBP | BDT | sell | 164.9188 |
+| INR | BDT | buy | 1.3015 |
+| INR | BDT | sell | 1.3029 |
+| JPY | BDT | buy | 0.7821 |
+| JPY | BDT | sell | 0.7831 |
+| SEK | BDT | buy | 12.4513 |
+| SEK | BDT | sell | 12.5006 |
+| SGD | BDT | buy | 96.5851 |
+| SGD | BDT | sell | 96.6865 |
+| USD | BDT | buy | 123.6 |
+| USD | BDT | reference | 123.65 |
+| USD | BDT | sell | 123.72 |
 
 </details>
 
 Source: [Official rates published by BB, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bb/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
-
-## 🔑 Get your API key
-
-Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — no credit card required. Latest rates are on every plan, including free.
 
 ## 📦 Installation
 
