@@ -32,30 +32,30 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-25 by Bangladesh Bank — 23 rates. Updated 2026-11-25.</summary>
+<summary>Table as text: published 2026-11-26 by Bangladesh Bank — 23 rates. Updated 2026-11-26.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | BDT | buy | 82.809 |
-| AUD | BDT | sell | 82.8714 |
-| BDT | LKR | buy | 2.6653 |
-| BDT | LKR | sell | 2.6661 |
-| CAD | BDT | buy | 87.3967 |
-| CAD | BDT | sell | 87.4395 |
-| CNH | BDT | buy | 18.7175 |
-| CNH | BDT | sell | 18.7177 |
-| EUR | BDT | buy | 136.7759 |
-| EUR | BDT | sell | 136.8133 |
-| GBP | BDT | buy | 163.5847 |
-| GBP | BDT | sell | 163.6221 |
-| INR | BDT | buy | 1.3426 |
-| INR | BDT | sell | 1.3427 |
-| JPY | BDT | buy | 0.7833 |
-| JPY | BDT | sell | 0.7834 |
-| SEK | BDT | buy | 12.185 |
-| SEK | BDT | sell | 12.191 |
-| SGD | BDT | buy | 96.7279 |
-| SGD | BDT | sell | 96.7804 |
+| AUD | BDT | buy | 82.6469 |
+| AUD | BDT | sell | 82.7217 |
+| BDT | LKR | buy | 2.6641 |
+| BDT | LKR | sell | 2.6649 |
+| CAD | BDT | buy | 87.7532 |
+| CAD | BDT | sell | 87.7594 |
+| CNH | BDT | buy | 18.7037 |
+| CNH | BDT | sell | 18.7093 |
+| EUR | BDT | buy | 136.8632 |
+| EUR | BDT | sell | 136.8882 |
+| GBP | BDT | buy | 163.5722 |
+| GBP | BDT | sell | 163.6096 |
+| INR | BDT | buy | 1.3525 |
+| INR | BDT | sell | 1.3526 |
+| JPY | BDT | buy | 0.7837 |
+| JPY | BDT | sell | 0.7838 |
+| SEK | BDT | buy | 12.1837 |
+| SEK | BDT | sell | 12.1873 |
+| SGD | BDT | buy | 96.6979 |
+| SGD | BDT | sell | 96.7054 |
 | USD | BDT | buy | 124.75 |
 | USD | BDT | reference | 124.75 |
 | USD | BDT | sell | 124.75 |
